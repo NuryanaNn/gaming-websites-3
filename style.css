@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4%;
+    background-color: #fff;
+}
+
+header img{
+    width: 200px;
+}
+
+header .searchBox{
+    position: relative;
+}
+
+header .searchBox i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+header input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+header .navigation{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    margin-right: 15px;
+}
+
+
+/* Banner */
+.banner{
+    padding: 1rem 4%;
+}
+
+.banner .card{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.banner .contentText h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.banner .contentText button{
+    background-color: #f62c84;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.new{
+    padding: 0 4%;
+    padding-top: 50px;
+}
+
+.new .newTitle h3{
+    margin-top: 15px;
+}
+
+.newGameContent{
+    margin-top: 30px;
+}
+
+.newGameContent .card{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    overflow:hidden
+}
+
+.newGameContent .card .gameTitle{
+    width: 100%;
+    padding: 10px;
+}
+
+.newGameContent .card .gameTitle h3{
+    margin: 10px 0;
+}
+
+.newGameContent .card img{
+    width: 100%;
+}
+
+.platform{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.platform li{
+    margin-right: 15px;
+}
+
+.price{
+    margin-top: 30px;
+}
+
+.addToCart{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #a85cf9;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+/* Genre */
+.genre{
+    padding: 0 4%;
+    margin-top: 50px;
+}
+
+.genreTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.genreTitle h3:nth-child(2){
+    background-color: #f62c84;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.categories, .blog{
+    padding: 0 4%;
+    margin-top: 80px;
+}
+
+.contentCategory{
+    margin-top: 20px;
+}
+
+.contentCategory .card{
+    position: relative;
+    width: 300px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.contentCategory .card img{
+    width: 100%;
+}
+
+.contentCategory .teks{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Blog */
+.blog .card{
+    width: 450px;
+}
+
+footer{
+    padding: 3rem 4%;
+    margin-top: 100px;
+    background-color: #d5cfff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    width: 300px;
+}
+
+footer h3{
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .icon{
+    display: flex;
+}
+
+footer .icon li{
+    margin-right: 20px;
+}
